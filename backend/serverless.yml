@@ -1,7 +1,7 @@
 # TODO: Change the name of the org 
 org: nmhieu0303
-app: serverless-todo-app-nmhieu0303
-service: serverless-todo-app-nmhieu0303
+app: serverless-todo-app-nmhieu
+service: serverless-todo-app-nmhieu
 frameworkVersion: '3.35.2'
 
 plugins:
@@ -28,7 +28,7 @@ provider:
   environment:
     TODOS_TABLE: Serverless-c4-Todos-app-${self:provider.stage}
     TODOS_CREATED_AT_INDEX: CreatedAtIndex
-    ATTACHMENT_S3_BUCKET: serverless-c4-todos-images-${self:provider.stage}
+    ATTACHMENT_S3_BUCKET: hieunm580-todo-app-images-${self:provider.stage}
     SIGNED_URL_EXPIRATION: 300
     PROJECT_NAME: serverless-todo-app-4
     USER_ID_INDEX: ${self:provider.environment.TODOS_CREATED_AT_INDEX}
