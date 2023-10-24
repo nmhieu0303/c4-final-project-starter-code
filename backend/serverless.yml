@@ -2,7 +2,6 @@
 org: nmhieu0303
 app: serverless-todo-app-nmhieu
 service: serverless-todo-app-nmhieu
-frameworkVersion: '3.35.2'
 
 plugins:
   - serverless-webpack
